@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formularz </title>
+</head>
+    <body>
+        <p>Przedstawiam tutaj pytania do pierwszego formularza</p>
+        <form>
+            <p> <b>Podaj swoje imię:</b> 
+                <input type="text" name="username" maxlength="15"/>
+            </p>
+            <p> <b>Podaj swój wiek: </b>
+                <input type="number" name="age" size="5" maxlength="4" required/>
+            </p>
+            <p> <b> Hasło:</b>
+                <input type="password" name="password" maxlength="25"/>
+            </p>
+            <p>
+                Czy potrafisz mówić w języku obcym? <br/>
+                    <input type="radio" name="language" value="tak"
+                    checked/> Tak
+                    <input type="radio" name="language" value="nie"
+                     /> Nie
+                    <input type="radio" name="language" value="uczę się"
+                    /> Uczę się <br/>
+                    <br/>
+                Jakie języki obce znasz? <br/>
+                    <input type="checkbox" name="język" value="Angielski"
+                    checked="checked"/> Angielski <br/>
+                    <input type="checkbox" name="język" value="Niemiecki"/> Niemiecki <br/>
+                    <input type="checkbox" name="język" value="Hiszpański"/> Hiszpański <br/>
+                    <input type="checkbox" name="język" value="Francuski"/> Francuski <br/>
+                    <input type="checkbox" name="język" value="Włoski"/> Włoski <br/>
+                    <br/>
+                Znasz więcej niż jeden język obcy? <br/>
+                    <select name="more">
+                        <option value="tak">Tak </option>  
+                        <option value="nie"> Nie </option>
+                    </select> <br/>
+                Jakich języków chciałbyś się nauczyć w przyszłości? (Możesz wybrać więcej niż jedną odpowiedź, by to zrobić przytrzymaj klawisz Ctrl). <br/>
+                    <select name="other" size="6" multiple="multiple">
+                        <option value="Angielski" selected="selected"> Angielski </option>
+                        <option value="Niemiecki" >Niemiecki </option>
+                        <option value="Hiszpańaki"> Hiszpański</option>
+                        <option value="Francuski"> Francuski </option>
+                        <option value="Włoski"> Włoski </option>
+                    </select>
+                    </br>
+                Możesz subskrybować stronę: <br/>
+                    <input type="text" name="email"/>
+                    <input type="submit" name="subscribe"
+                    value="Subskrybuj"/> 
+                    <br/>
+                Jaka jest Twoja płeć? <br/>
+                    <input id="female" type="radio" name="gender" value="f">
+                    <label for="female"> Kobieta </label>
+                    <input id="male" type="radio" name="gender" value="m">
+                    <label for="male"> Mężczyzna </label>
+                    <br/>
+                Może masz jakieś przemyślenia, podziel się: <br/>
+                    <textarea name="comments" cols="40" rows="5"> Tutaj możesz wpisać co myślisz...</textarea>
+                
+
+            </p>
+            </form>
+
+
+    </body>
+    </html>
