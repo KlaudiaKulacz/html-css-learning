@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: dotted;
+    margin-top: 0px;
+    font-style: italic;
+    padding: 20px;
+    font-size: 50pt;
+}
+body {
+    
+}
+div {
+    border-style: solid; border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+div h2 {
+    color:red;
+}
+img {
+    width: 30%;
+}
+.autor {
+    font-style: italic;
+    text-align: right;
+    text-transform: lowercase;
+}
+.o_mnie {
+    
+}
